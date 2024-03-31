@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  color:#333;
+}
+
+body {
+  position:relative;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.center__page{
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 14px;
+  padding: 0 20px 0 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.body__background{
+  z-index:-1;
+  top:400px;
+  width:100vw;
+  position:absolute;
+}
+

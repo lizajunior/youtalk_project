@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  padding: 24px 24px 0 24px;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  z-index: 1000;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center center;
+  border-bottom: 2px solid #EFF5FB;
+  padding-bottom: 20px;
+}
+
+.header__logo {
+  width: 48px;
+
+}
+
+.header__list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.header__link {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.header__btn-expand-text {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__menu {
+  margin-right: 164px;
+}
+
+.header__button {
+  display: none;
+}
+
+.header__burger-menu {
+  display: none;
+
+}
+
+.header-line {
+  border: none;
+  background-color: #EFF2F2;
+  height: 2px;
+}

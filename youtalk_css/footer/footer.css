@@ -1,5 +1,7 @@
 .footer{
-  width:100vw;
+
+  width:100%;
+  box-sizing: border-box;
 }
 
 .footer__other{
@@ -54,12 +56,12 @@
 .footer__input-part{
   position: relative;
   width:64px;
-  height:46px;
+  height: 47px;
   background-color: #16C8BB;
   border:none;
   border-radius: 4px;
-  left:83%;
-  bottom:120%;
+  left:84%;
+  bottom:100%;
   cursor: pointer;
 }
 
@@ -71,6 +73,7 @@
 }
 
 .footer__item{
+  text-wrap:nowrap;
   color:white;
   font-weight: 600;
 }
@@ -86,7 +89,6 @@
   padding-bottom:20px;
   padding-top: 40px;
   justify-content: center;
-  flex:1;
   display: flex;
   border-bottom:1px solid #9d9d9d32;
 }
@@ -130,6 +132,6 @@
 .footer__social{
   display:grid;
   grid-template-columns: 32px 32px 32px 32px;
-  gap: 8px;
+  gap:20px;
   padding-top:30px;
 }

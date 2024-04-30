@@ -1,21 +1,25 @@
 .header {
+  box-sizing: border-box;
+  display: flex;
   position: fixed;
   padding: 24px 24px 0 24px;
   top: 0;
   left: 0;
   background-color: #FFF;
   z-index: 1000;
-  width: 100vw;
-  display: flex;
+  width: 100%;
   justify-content: space-evenly;
   place-items: center center;
   border-bottom: 2px solid #EFF5FB;
   padding-bottom: 20px;
 }
 
+.header__menu__item{
+  text-wrap: nowrap;
+}
+
 .header__logo {
   width: 48px;
-
 }
 
 .header__list {
@@ -30,7 +34,7 @@
 }
 
 .header__link {
-  white-space: nowrap;
+  text-wrap: nowrap;
   text-decoration: none;
 }
 
@@ -45,17 +49,13 @@
   cursor: pointer;
 }
 
-.header__menu {
-  margin-right: 164px;
-}
-
-.header__button {
-  display: none;
+.header__list {
+  font-size:14px;
+  margin-right: 100px;
 }
 
 .header__burger-menu {
-  display: none;
-
+  display:none;
 }
 
 .header-line {

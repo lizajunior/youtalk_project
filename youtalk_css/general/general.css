@@ -1,29 +1,55 @@
-*{
+* {
   box-sizing: border-box;
-  color:#333;
+  color: #333;
+  
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-  position:relative;
-  font-family: Montserrat;
+  height:100%;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-}
-
-.center__page{
-  width: 1440px;
-  margin: 0 auto;
-  margin-top: 14px;
-  padding: 0 20px 0 20px;
-  height: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.body__background{
-  z-index:-1;
-  top:400px;
-  width:100vw;
-  position:absolute;
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
+
+.content{
+  margin:0 auto;
+  padding-top:50px;
+}
+.body__background {
+  z-index: -1;
+  top: 400px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed; /* фиксируем фон */
+  object-fit: cover;
+}
+
+/* Футер всегда внизу */
+.footer {
+  background-color: #2963A3;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+/* Media Queries для адаптации */
+@media (max-width: 768px) {
+  .body__background {
+    object-fit: cover;
+  }
+}

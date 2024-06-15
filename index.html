@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>YouTalk - Блог</title>
   <link rel="stylesheet" href="youtalk_css/reset/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,295 +17,295 @@
 </head>
 
 <body>
+  <header class="header">
+      
+    <img class="header__logo" src="../youtalk_css/svg/logo_youtalk.svg" alt="Логотип компании">
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class="link header__link">О нас</a>
+        </li>
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class="link header__link">Тарифы</a>
+        </li>
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class="link header__link">Для бизнеса</a>
+        </li>
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class="link header__link">Психологам</a>
+        </li>
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class=" link header__link">Сертификат</a>
+        </li>
+        <li class="flex header__menu__item">
+          <a href="#" target="_blank" class="link header__link">Материалы</a><button class="header__btn-expand-text"><img
+            src="youtalk_css/svg/expand_text.svg"alt="Развенуть текст"></button>
+        </li>
+        <li class="header__menu__item">
+          <a href="#" target="_blank" class=" link header__link">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <img class="header__burger-menu" src="./youtalk_css/img/burger-menu.png" alt="меню">
+    
+    <button class="button button_primary">
+      Подобрать психолога
+    </button>
+
+</header>
   <div class="container">
 
     <img class="body__background" src="youtalk_css/img/Vectorbackground.png">
-    
-    <header class="header">
-        
-      <img class="header__logo" src="../youtalk_css/svg/logo_youtalk.svg" alt="Логотип компании">
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class="link header__link">О нас</a>
+    <div class="header-line"></div>
+    <main class="content">
+      <nav class="breadcrumb">
+        <ul>
+          <li class="breadcrumb__item">
+            <a href="#" target="_blank" class="link">Главная</a>
           </li>
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class="link header__link">Тарифы</a>
-          </li>
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class="link header__link">Для бизнеса</a>
-          </li>
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class="link header__link">Психологам</a>
-          </li>
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class=" link header__link">Сертификат</a>
-          </li>
-          <li class="flex header__menu__item">
-            <a href="#" target="_blank" class="link header__link">Материалы</a><button class="header__btn-expand-text"><img
-              src="youtalk_css/svg/expand_text.svg"alt="Развенуть текст"></button>
-          </li>
-          <li class="header__menu__item">
-            <a href="#" target="_blank" class=" link header__link">FAQ</a>
-          </li>
+          <li class="breadcrumb__item">Блог</li>
         </ul>
+        <h1 class="title-of-the-page">Блог</h1>
       </nav>
+      <div class="articles-filter">
+        <button class="articles-filter__item">
+          <img class="emoji" src="../youtalk_css/img/smile.png">
+          Все
+        </button>
+        <button class="articles-filter__item">Самооценка и самопринятие</button>
+        <button class="articles-filter__item">
+          <img class="emoji" src="../youtalk_css/img/unicorn.png">
+          Self
+        </button>
+        <button class="articles-filter__item">Чувства и эмоции</button>
+        <button class="articles-filter__item">Тревога</button>
+        <button class="articles-filter__item">Упражнения</button>
+        <button class="articles-filter__item">Психология питания</button>
+        <button class="articles-filter__item">Насилие</button>
+        <button class="articles-filter__item">Личное здоровье</button>
+      </div>
 
-      <button class="button button_primary">
-        Подобрать психолога
-      </button>
-
-      <img class="header__burger-menu" src="./youtalk_css/img/burger-menu.png" alt="меню">
-      
-    </header>
-    <div class="center__page">
-      <div class="header-line"></div>
-      <main class="content">
-        <nav class="breadcrumb">
-          <ul>
-            <li class="breadcrumb__item">
-              <a href="#" target="_blank" class="link">Главная</a>
-            </li>
-            <li class="breadcrumb__item">Блог</li>
-          </ul>
-          <h1 class="title-of-the-page">Блог</h1>
-        </nav>
-        <div class="articles-filter">
-          <button class="articles-filter__item">
-            <img class="emoji" src="../youtalk_css/img/smile.png">
-            Все
-          </button>
-          <button class="articles-filter__item">Самооценка и самопринятие</button>
-          <button class="articles-filter__item">
-            <img class="emoji" src="../youtalk_css/img/unicorn.png">
-            Self
-          </button>
-          <button class="articles-filter__item">Чувства и эмоции</button>
-          <button class="articles-filter__item">Тревога</button>
-          <button class="articles-filter__item">Упражнения</button>
-          <button class="articles-filter__item">Психология питания</button>
-          <button class="articles-filter__item">Насилие</button>
-          <button class="articles-filter__item">Личное здоровье</button>
-        </div>
-
-          <div class="all__articles">
-            <section class="article__main-container">
-              <a href="#" class="article__link">
-                <div class=" article article__main-first article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_1.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Эмоциональное выгорание – стадии и симптомы,
-                      методы восстановления и профилактики
-                    </p>
-                    <p class="article__author">
-                      Автор: Лиза Файнтух
-                    </p>
-                    <p class="article__description">
-                      Изначально термин «эмоциональное профессиональной сфере и относился...
-                    </p>
-                    <p class="article__date">
-                      21.08.2021
-                    </p>
-                    <button class="first_button article__transparent-button">
-                      <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                    <button class="second_button article__transparent-button">
-                      <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
-                      Самооценка и самопринятие
-                    </button>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="article__link">
-                <div class=" article article__main-second article__pointer">
-                  <img class="article__image" src="../youtalk_css/img/skillfactory_2.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Как не утонуть в тревоге и управлять своими страхами
-                    </p>
-                    <p class="article__author">
-                      Автор: Екатерина Бельтюкова
-                    </p>
-                    <p class="article__description">
-                      Один из самых важных навыков, которые
-                      может дать работа с психотерапевтом -
-                      умение в разных ситуациях по-разному обходиться ...</p>
-                    <p class="article__date">
-                      11.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </section>
-
-            <section class="article__container">
-              <a href="#" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="../youtalk_css/img/skillfactory_3.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Эмоциональное выгорание – стадии и симптомы,
-                      методы восстановления и профилактики
-                    </p>
-                    <p class="article__author">
-                      Автор: Лиза Файнтух
-                    </p>
-                    <p class="article__description">
-                      Изначально термин «эмоциональное профессиональной сфере и относился...
-                    </p>
-                    <p class="article__date">
-                      21.08.2021
-                    </p>
-                  </div>
+      <div class="centered__all-articles">
+        <div class="all__articles">
+          <section class="article__main-container">
+            <a href="#" class="article__link">
+              <div class=" article article__main-first article__pointer">
+                <img class="main__image article__image" src="youtalk_css/img/skillfactory_1.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Эмоциональное выгорание – стадии и симптомы,
+                    методы восстановления и профилактики
+                  </p>
+                  <p class="article__author">
+                    Автор: Лиза Файнтух
+                  </p>
+                  <p class="article__description">
+                    Изначально термин «эмоциональное профессиональной сфере и относился...
+                  </p>
+                  <p class="article__date">
+                    21.08.2021
+                  </p>
                   <button class="first_button article__transparent-button">
-                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                    Самооценка и самопринятие
+                    <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
+                    Self
                   </button>
                   <button class="second_button article__transparent-button">
-                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                    Психология питания
+                    <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
+                    Самооценка и самопринятие
                   </button>
                 </div>
-              </a>
-              
-              <a href="article.html" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_4.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Как не утонуть в тревоге и управлять своими страхами
-                    </p>
-                    <p class="article__author">
-                      Автор: Екатерина Бельтюкова
-                    </p>
-                    <p class="article__description">
-                      Один из самых важных навыков, которые
-                      может дать работа с психотерапевтом -
-                      умение в разных ситуациях по-разному обходиться ...</p>
-                    <p class="article__date">
-                      11.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
-    
+              </div>
+            </a>
+            <a href="#" class="article__link">
+              <div class=" article article__main-second article__pointer">
+                <img class="main__image article__image" src="../youtalk_css/img/skillfactory_2.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Как не утонуть в тревоге и управлять своими страхами
+                  </p>
+                  <p class="article__author">
+                    Автор: Екатерина Бельтюкова
+                  </p>
+                  <p class="article__description">
+                    Один из самых важных навыков, которые
+                    может дать работа с психотерапевтом -
+                    умение в разных ситуациях по-разному обходиться ...</p>
+                  <p class="article__date">
+                    11.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="transparent-button" src="../youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
                 </div>
-              </a>
-              <a href="#" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_5.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Эмоциональное выгорание – стадии и симптомы,
-                      методы восстановления и профилактики
-                    </p>
-                    <p class="article__author">
-                      Автор: Лиза Файнтух
-                    </p>
-                    <p class="article__description">
-                      Изначально термин «эмоциональное профессиональной сфере и относился...
-                    </p>
-                    <p class="article__date">
-                      21.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="emoji transparent-button" src="youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
+              </div>
+            </a>
+          </section>
+
+          <section class="article__container">
+            <a href="#" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="../youtalk_css/img/skillfactory_3.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Эмоциональное выгорание – стадии и симптомы,
+                    методы восстановления и профилактики
+                  </p>
+                  <p class="article__author">
+                    Автор: Лиза Файнтух
+                  </p>
+                  <p class="article__description">
+                    Изначально термин «эмоциональное профессиональной сфере и относился...
+                  </p>
+                  <p class="article__date">
+                    21.08.2021
+                  </p>
                 </div>
-              </a>
-              <a href="#" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_6.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Как не утонуть в тревоге и управлять своими страхами
-                    </p>
-                    <p class="article__author">
-                      Автор: Екатерина Бельтюкова
-                    </p>
-                    <p class="article__description">
-                      Один из самых важных навыков, которые
-                      может дать работа с психотерапевтом -
-                      умение в разных ситуациях по-разному обходиться ...</p>
-                    <p class="article__date">
-                      11.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
+                <button class="first_button article__transparent-button">
+                  <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                  Самооценка и самопринятие
+                </button>
+                <button class="second_button article__transparent-button">
+                  <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                  Психология питания
+                </button>
+              </div>
+            </a>
+            
+            <a href="article.html" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="youtalk_css/img/skillfactory_4.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Как не утонуть в тревоге и управлять своими страхами
+                  </p>
+                  <p class="article__author">
+                    Автор: Екатерина Бельтюкова
+                  </p>
+                  <p class="article__description">
+                    Один из самых важных навыков, которые
+                    может дать работа с психотерапевтом -
+                    умение в разных ситуациях по-разному обходиться ...</p>
+                  <p class="article__date">
+                    11.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
                 </div>
-              </a>
-              <a href="#" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_7.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Как не утонуть в тревоге и управлять своими страхами
-                    </p>
-                    <p class="article__author">
-                      Автор: Екатерина Бельтюкова
-                    </p>
-                    <p class="article__description">
-                      Один из самых важных навыков, которые
-                      может дать работа с психотерапевтом -
-                      умение в разных ситуациях по-разному обходиться ...</p>
-                    <p class="article__date">
-                      11.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
+  
+              </div>
+            </a>
+            <a href="#" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="youtalk_css/img/skillfactory_5.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Эмоциональное выгорание – стадии и симптомы,
+                    методы восстановления и профилактики
+                  </p>
+                  <p class="article__author">
+                    Автор: Лиза Файнтух
+                  </p>
+                  <p class="article__description">
+                    Изначально термин «эмоциональное профессиональной сфере и относился...
+                  </p>
+                  <p class="article__date">
+                    21.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="emoji transparent-button" src="youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
                 </div>
-              </a>
-              <a href="#" class="article__link">
-                <div class="article article__pointer">
-                  <img class="article__image" src="youtalk_css/img/skillfactory_8.png" alt="Фотография статьи">
-                  <div class="article__body">
-                    <p class="article__header">
-                      Как не утонуть в тревоге и управлять своими страхами
-                    </p>
-                    <p class="article__author">
-                      Автор: Екатерина Бельтюкова
-                    </p>
-                    <p class="article__description">
-                      Один из самых важных навыков, которые
-                      может дать работа с психотерапевтом -
-                      умение в разных ситуациях по-разному обходиться ...</p>
-                    <p class="article__date">
-                      11.08.2021
-                    </p>
-                    <button class="article__transparent-button">
-                      <img class="transparent-button" src="youtalk_css/img/unicorn.png">
-                      Self
-                    </button>
-                  </div>
+              </div>
+            </a>
+            <a href="#" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="youtalk_css/img/skillfactory_6.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Как не утонуть в тревоге и управлять своими страхами
+                  </p>
+                  <p class="article__author">
+                    Автор: Екатерина Бельтюкова
+                  </p>
+                  <p class="article__description">
+                    Один из самых важных навыков, которые
+                    может дать работа с психотерапевтом -
+                    умение в разных ситуациях по-разному обходиться ...</p>
+                  <p class="article__date">
+                    11.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
                 </div>
-              </a>
-            </section>
-          </div>
+              </div>
+            </a>
+            <a href="#" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="youtalk_css/img/skillfactory_7.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Как не утонуть в тревоге и управлять своими страхами
+                  </p>
+                  <p class="article__author">
+                    Автор: Екатерина Бельтюкова
+                  </p>
+                  <p class="article__description">
+                    Один из самых важных навыков, которые
+                    может дать работа с психотерапевтом -
+                    умение в разных ситуациях по-разному обходиться ...</p>
+                  <p class="article__date">
+                    11.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="article__link">
+              <div class="article article__pointer article__size">
+                <img class="article__image" src="youtalk_css/img/skillfactory_8.png" alt="Фотография статьи">
+                <div class="article__body">
+                  <p class="article__header">
+                    Как не утонуть в тревоге и управлять своими страхами
+                  </p>
+                  <p class="article__author">
+                    Автор: Екатерина Бельтюкова
+                  </p>
+                  <p class="article__description">
+                    Один из самых важных навыков, которые
+                    может дать работа с психотерапевтом -
+                    умение в разных ситуациях по-разному обходиться ...</p>
+                  <p class="article__date">
+                    11.08.2021
+                  </p>
+                  <button class="article__transparent-button">
+                    <img class="transparent-button" src="youtalk_css/img/unicorn.png">
+                    Self
+                  </button>
+                </div>
+              </div>
+            </a>
+          </section>
+        </div>
+      </div>
+          
 
           <button class="button button_secondary">
             Ещё
           </button>
 
         </section>
-      </main>
-    </div>
-    <footer class="footer" style="
+    </main>
+  </div>  
+  <footer class="footer" style="
       background-color:#2963A3;">
         <div class="footer__layout">
           <div class="footer__nav-wrapper">
@@ -350,14 +350,13 @@
               <a href="#" class="yandex"><img src="youtalk_css/svg/yandex.svg" alt="Яндекс Дзен"></a>
             </div>
           </div>
-        </div>
-        <div class="footer__other">
-          <p class="footer__copyright">©Youtalk, 2018 – 2022</p>
-          <p class="footer__documents">Юридические документы</p>
-          <p class="footer__pay">Способы оплаты</p>
+          <div class="footer__other">
+            <p class="footer__copyright">©Youtalk, 2018 – 2022</p>
+            <p class="footer__documents">Юридические документы</p>
+            <p class="footer__pay">Способы оплаты</p>
+          </div>
         </div>
     </footer>
-  </div>  
 </body>
 
 </html>

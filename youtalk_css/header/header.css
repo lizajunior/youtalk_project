@@ -1,10 +1,9 @@
 .header {
-  box-sizing: border-box;
   display: flex;
+  justify-content: center; 
   position: fixed;
   padding: 24px 24px 0 24px;
   top: 0;
-  left: 0;
   background-color: #FFF;
   z-index: 1000;
   width: 100%;
@@ -14,6 +13,9 @@
   padding-bottom: 20px;
 }
 
+.header__menu{
+  margin:0 auto;
+}
 .header__menu__item{
   text-wrap: nowrap;
 }
@@ -23,7 +25,7 @@
 }
 
 .header__list {
-  list-style-type: none;
+  font-size:14px;
   display: flex;
   gap: 30px;
 }
@@ -49,13 +51,9 @@
   cursor: pointer;
 }
 
-.header__list {
-  font-size:14px;
-  margin-right: 100px;
-}
-
 .header__burger-menu {
-  display:none;
+  display:block;
+  visibility: hidden;
 }
 
 .header-line {
